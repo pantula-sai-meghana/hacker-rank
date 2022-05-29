@@ -1,0 +1,21 @@
+string armstrongNumber(int n){
+        int i,a,s=0,r;
+        a=n;
+        //for(i=0;i<n;i++)
+        while(n>0)
+        {
+            r=n%10;
+            n=n/10;
+            s=s+(r*r*r);
+        }
+        if(a==s)
+        {
+            printf("Yes");
+        }
+        else
+        {
+            printf("No");
+        }
+        // code here
+    }
+};
