@@ -1,0 +1,21 @@
+# hacker-rank
+n=int(input())
+c,s,g=0,0,0
+arr = list(map(int, input().split()))
+for i in range (len(arr)):
+    if(arr[i]>0):
+        c=c+1
+    if(arr[i]<0):
+        s=s+1
+    if(arr[i]==0):
+        g=g+1
+print(c/n)
+print(s/n)
+print(g/n)
+
+#output
+5
+1 2 -4 -5 0
+0.4
+0.4
+0.2
