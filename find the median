@@ -1,0 +1,11 @@
+n=int(input())
+l=list(map(int,input().split()))
+p=sorted(l)
+if(n%2!=0):
+    k=n//2
+    print(p[k])
+else:
+    m=n//2
+    s=(p[m]+p[m-1])//2
+    print(p[s])
+ 
