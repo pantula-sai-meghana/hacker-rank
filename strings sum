@@ -1,0 +1,39 @@
+n=int(input())
+s=""
+for i in range(n):
+    p=input()
+    s = s + p
+    print(s) 
+a = int(s)
+print(a)
+print(type(a))
+
+m=int(input())
+s1=""
+for i in range(n):
+    q=input()
+    s1 = s1 + q
+    print(s1) 
+b= int(s1)
+print(b)
+print(type(b))
+print("SUM")
+print(a+b)
+
+output:
+2
+4
+5
+45
+type<int>
+2
+3
+4
+34
+sum
+79
+
+                         
+
+
+
