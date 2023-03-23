@@ -1,0 +1,21 @@
+n=int(input())
+l=list(map(int,input().split()))
+c=0
+m=int(input())
+for i in range(n):
+        if(l[i]==m):
+            c=c+1
+if(c>=1):
+    print(c)
+else:
+    print("0")
+    
+    
+    output:
+    7
+    1 2 3 4 1 6 7
+    1
+    Sample Output 0
+    2
+            
+    
