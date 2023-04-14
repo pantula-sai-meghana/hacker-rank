@@ -1,0 +1,11 @@
+n=input()
+k=n.split(' ')
+k.reverse();
+for i in k:
+    #print(i,end=' ')
+    print(i.swapcase(),end=' ')
+    
+    
+    o/p:
+    My nAME iS meghANA
+    MEGHana Is Name mY
