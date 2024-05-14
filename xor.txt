@@ -1,0 +1,27 @@
+#include<stdio.h>
+int main()
+{
+    int i,arr[4]={5, 9, 7, 6} ,p;
+    //scanf("%d",&arr);
+    for(i=0;i<3;i++)
+    {
+        p=arr[i]^arr[i+1];
+        printf("%d ",p);
+    }
+    printf("%d",arr[3]);
+}
+
+####second on runtime
+
+int i;
+int* game_with_number(int arr[], int n)
+{
+    //scanf("%d",&arr);
+    for(i=0;i<n-1;i++)
+    {
+        arr[i]=arr[i]^arr[i+1];
+        //printf("%d ",p);
+    }
+    return arr;
+    //printf("%d",arr[4]);
+}

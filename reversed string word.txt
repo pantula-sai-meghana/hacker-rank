@@ -1,0 +1,10 @@
+s=input()
+w= s.split()
+w=list(reversed(w))
+print(" ".join(w))
+
+
+
+
+my name is meghu
+meghu is name my

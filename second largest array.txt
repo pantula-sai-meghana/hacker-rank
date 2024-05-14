@@ -1,0 +1,9 @@
+n=list(map(int,input().split()))
+k=set(n)
+p=sorted(k)
+l=len(k)
+print(p[l-2])
+
+
+1 1 2 2 3 3
+2

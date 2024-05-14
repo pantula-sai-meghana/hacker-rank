@@ -1,0 +1,27 @@
+#include <stdio.h>
+int main()
+{
+int i,j,arr[10],arr1[10],n,m,p;
+ printf("enter two  numbers of digits:");
+ scanf("%d %d",&i,&j);
+  printf("enter a  number of 1's  and 0's form:");
+ for(n=0;n<i;n++)
+ {
+     scanf("%d",&arr[n]);
+ }
+  printf("enter a  numbers of 1's  and 0's:");
+ for(m=0;m<j;m++)
+ {
+     scanf("%d",&arr1[m]);
+ }
+ for(p=0;p<i;p++)
+ {
+ if(arr[p]==arr1[p])
+ {
+     printf("0");
+ }
+ else
+ printf("1");
+ }
+}
+

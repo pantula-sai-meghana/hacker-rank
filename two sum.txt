@@ -1,0 +1,13 @@
+c=0
+n=int(input())
+m=int(input())
+l=list(map(int,input().split()))
+for i in range(0,n):
+    for j in range(0,n):
+        if(l[i]+l[j]==m):
+            print(l[i])
+            print(l[j])
+            c=c+1
+if(c>=1):
+    print(c)
+        

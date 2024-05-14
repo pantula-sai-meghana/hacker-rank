@@ -1,0 +1,13 @@
+
+n=int(input())
+for i in range(0,n):
+        arr = list(map(int,input("\n").split()))
+        if(pow(arr[0],2) + pow(arr[1],2)==pow(arr[2],2) or pow(arr[2],2) + pow(arr[1],2)==pow(arr[0],2)):
+            print("right angle triangle")
+        if(arr[0]!=arr[1]!=arr[2]):
+            print("scalene triangle")
+        if(arr[0]==arr[1] or arr[2]==arr[1] or arr[2]==arr[0]):
+             print("isocleses triangle")
+        if(arr[0]==arr[1]==arr[2]):
+              print("equlatorial triangle")
+        

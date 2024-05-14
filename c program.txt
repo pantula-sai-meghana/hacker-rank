@@ -1,0 +1,25 @@
+#include <stdio.h>
+#include <string.h>
+#include <math.h>
+#include <stdlib.h>
+
+int main() {
+
+    int a,b,c;
+    scanf("%d",&a);
+    scanf("%d",&b);
+    scanf("%d",&c);
+    if(a<b && c<b && a==c && a<b)
+    printf("-1 %d",b);
+    else if(b<a && c<a && b==c && b<a)
+    printf("-1 %d",a);
+    else if(a<c && b<c && a==b && a<c)
+    printf("-1 %d",c);
+    
+    else if(a>b && c>b && a==c && b<a)
+    printf("%d -2",b);
+    else if(a>c && b>c && b==a && c<a)
+     printf("%d -2",c);
+    else if(b>a && c>a && c==b && a<b)
+    printf("%d -2",a);
+}

@@ -1,0 +1,27 @@
+n=input()
+m=input()
+if(n[0]=='0' and m[0]=='0'):
+    print("Your age is",int(m)-int(n))
+else:
+    k='19'+n
+    p='20'+m
+    print("Your age is",int(p)-int(k))
+    
+    
+1927-2007=80 years
+
+n=int(input())
+a=n
+k=n%10
+n=n//10
+if(n!=0):
+    p='19'+str(a)
+    #print(p)
+m=int(input())
+b=m
+l=m%10
+m=m//10
+if(m==0):
+    o='200'+str(b)
+    #print(o)  
+    print(int(o)-int(p))

@@ -1,0 +1,12 @@
+n=input()
+if(n[0]=='-'):
+    k=n[::-1]
+    a=k[0:len(k)-1]
+    print(n[0]+a)
+else:
+    print(str(n[::-1]))
+
+
+
+-123
+out: -321

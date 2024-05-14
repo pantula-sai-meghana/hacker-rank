@@ -1,0 +1,10 @@
+'''
+s=input()
+n=int(input())
+c=input()
+k=0
+for i in range(0,n):
+    for j in range(0,i):
+        if(c[i]==s[j]):
+            k=k+1
+            print(k)
